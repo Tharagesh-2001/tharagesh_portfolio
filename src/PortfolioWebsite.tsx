@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import tharageshimg from "./assets/tharagesh.jpg";
 
 export default function PortfolioWebsite() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -600,7 +601,7 @@ export default function PortfolioWebsite() {
               </div>
 
               <img
-                src="/src/assets/tharagesh.jpg"
+                src={tharageshimg}
                 alt="Tharagesh"
                 className="h-[340px] w-[260px] sm:h-[440px] sm:w-[340px] lg:h-[520px] lg:w-[400px] rounded-[30px] object-cover"
                 />
